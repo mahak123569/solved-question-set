@@ -1,0 +1,16 @@
+.loader {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid salmon;
+    border-top: 20px solid darkorange;
+    animation: colorAnimate 3s ease-in 0s infinite normal;
+}
+@keyframes  colorAnimate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

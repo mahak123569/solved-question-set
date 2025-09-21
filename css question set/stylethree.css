@@ -1,0 +1,30 @@
+#light {
+    width: 150px;
+    background-color: black;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#redlight, #yellowlight, #greenlight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+   
+}
+
+
+#redlight {
+    background-color: crimson;
+}
+
+#yellowlight {
+    background-color: yellow;
+}
+
+#greenlight {
+    background-color: seagreen;
+}
